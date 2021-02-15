@@ -51,3 +51,22 @@ What are the four steps CPUs use to execute instructions?
 Remember the block diagram of the microinstruction control Mic‐1 from the lecture. The B bus register is encoded in a 4‐bit field, but the C bus is represented as a bit map. Why?
 
 **Answer**
+
+<img alt="MIC-1" src="https://upload.wikimedia.org/wikipedia/it/d/db/Mic-1.jpg" width="500">
+
+> source: [Wiki](https://it.wikipedia.org/wiki/MIC-1)
+
+* B bus: connected to the output of the registers and to the input of the ALU.
+* C bus: connected to the output of the shifter and to the input of the registers.
+
+The B bus can be enabled by just one register at a time, since the transfer of data from 2 registers at the same time, would make this data inconsistent. Therefore, a 4-bit field is enough to represent.
+
+In contrast, the C bus can be enabled by more than 1 register at the same time. Because of this reason, a complete bit map is specified for C bus.
+
+<a name="t5">
+
+## Task 2.5: Microarchitecture level: execution time
+How long does a 2.5‐GHz Mic‐1 take to execute the following Java statement
+```i = j + k;```
+Make use of the following table excerpt of the Mic‐1’s microprogram 
+![table2-5](/image/table2-5.png)
