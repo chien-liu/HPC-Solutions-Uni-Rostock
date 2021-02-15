@@ -1,4 +1,4 @@
-# HPC exercise 01
+# HPC exercise 1
 ###### tags `uni-rostock` `HPC`
 
 ## Table of Contents
