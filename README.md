@@ -38,6 +38,14 @@ Some solutions are still in progress. What we have now is shown below.
   - [ ] 2.9
   - [x] 2.10
 * exercise 3  <a name="3">
+  - [x] 3.1
+  - [x] 3.2
+  - [x] 3.3
+  - [x] 3.4
+  - [x] 3.5
+  - [ ] 3.6
+  - [x] 3.7
+  - [x] 3.8
 * exercise 4  <a name="4">
 * exercise 5  <a name="5">
 * exercise 6  <a name="6">
