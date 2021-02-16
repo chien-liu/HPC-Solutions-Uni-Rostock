@@ -1,7 +1,7 @@
 # Usage
 ***Unofficial*** solutions for HPC exercises. The sources were searched from google as well as from lecture notes. If you have a better answer, feel free to tell us. We appreciate your assistance to make this solution better.
 
-The solutions are placed in [\doc](/doc). Head to the folder and enjoy :blush:
+The solutions are placed in [doc](/doc). Head to the folder and enjoy :blush:
 
 ## Table of Content
 - [Prgress](#progress)
