@@ -35,3 +35,15 @@ A machine has a 32-bit byte-addressable virtual address space. The page size is 
 ## Task 4.4: File systems
 **Question**\
 Compare the bit-map with the free-list methods for keeping track of free space on a disk with 800 cylinders, each one having 5 tracks of 32 sectors. How many holes would it take before the hole list would be larger than the bit map? Assume that the allocation unit is the sector and that a hole requires a 32-bit table entry.
+
+**Answer**\
+schematic of the hard drive geometry:\
+<img alt="schematic of the hard drive geometry" src="https://upload.wikimedia.org/wikipedia/commons/4/41/Hard_drive_geometry_-_English_-_2019-05-30.svg" width="500">
+> source: [Wikipedia](https://en.wikipedia.org/wiki/Cylinder-head-sector)
+ 
+(a) bit map method\
+Size of bit map is 
+
+(b)free list method\
+
+
