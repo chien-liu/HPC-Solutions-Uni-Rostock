@@ -47,6 +47,14 @@ Some solutions are still in progress. What we have now is shown below.
   - [x] 3.7
   - [x] 3.8
 * exercise 4  <a name="4">
+  - [x] 4.1
+  - [x] 4.2
+  - [x] 4.3
+  - [x] 4.4
+  - [x] 4.5
+  - [x] 4.6
+  - [x] 4.7
+  - [x] 4.8
 * exercise 5  <a name="5">
 * exercise 6  <a name="6">
 
