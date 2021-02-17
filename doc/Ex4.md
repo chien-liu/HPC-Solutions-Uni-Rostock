@@ -42,8 +42,46 @@ schematic of the hard drive geometry:\
 > source: [Wikipedia](https://en.wikipedia.org/wiki/Cylinder-head-sector)
  
 (a) bit map method\
-Size of bit map is 
+Size of bit map equals to the number of blocks. In this case, no. of blocks equals to no. of sectors, which is cylinders x track x sectors = 800 x 5 x 32 = 128000 (bit)
 
-(b)free list method\
+(b)free list method (linked list method)\
+A hole requires 32-bit table entry. 128000 / 32 = 4000.
+
+Ans: 4000 holes
+
+<a name="t5">
+
+## Task 4.5: Scheduling
+**Question**\
+Which scheduling strategies do you know? Give the scheduling strategy that is used in practice.
+
+**Answer**\
+(1) Preemptive v.s. Non-preemptive
+* Preemptive\
+  - A running process can be suspended in order to schedule another process
+* Non-preemptive
+  - Processes run until they become blocked by issuing a system call
+
+(2) Priority-based\
+Each process is assigned with a priority. CPU executes the process with the highest priority. Priority-based method can be preemptive or non-preemptive. The problem of priority-based method is that the process with lower priorty could be postponed by indefined time.
+* Static priority
+  - The priority of a process is fixed over time.
+* Dynamic priority
+  - The priority of a process changes over time, e.g. priority is increased for process that are ready for a long time.
+
+(3) FIFO: first-in-first-out, non-preemptive
+
+(4) Round-robin (RR): dynamic proirties with round-robin in each priority\
+RR is a preemptive algorithm without priority. RR give every process an equal share of time. RR allows each process to be executed for a limit time slice, and then the scheduler suspends the process and dispatchs another process.
+
+In practice: dynamic priorities with round-robin in each priority.
+
+<a name="t6">
+
+## Task 4.6: Process interaction
+**Question**\
+Explain the process of connection-oriented client-server communication.
+
+**Answer**\
 
 
