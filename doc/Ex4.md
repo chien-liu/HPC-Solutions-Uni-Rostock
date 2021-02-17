@@ -1,6 +1,19 @@
 # HPC exercise 4
 ###### tags `uni-rostock` `HPC`
 
+## Table of Contents
+<!-- ts -->
+* [Task4.1](#t1)
+* [Task4.2](#t2)
+* [Task4.3](#t3)
+* [Task4.4](#t4)
+* [Task4.5](#t5)
+* [Task4.6](#t6)
+* [Task4.7](#t7)
+* [Task4.8](#t8)
+<!-- te -->
+
+
 <a name="t1">
   
 ## Task 4.1: Introduction to operating systems
@@ -83,5 +96,48 @@ In practice: dynamic priorities with round-robin in each priority.
 Explain the process of connection-oriented client-server communication.
 
 **Answer**\
+Connection-oriented: Before two devices sending any data to each other, they first establish a connection.\
+
+TCP (a connection-oriented client-server communication protocol)\
+* Establish a connection (3-way handshake)
+  1. client send "SYN"(synchronize) message to server
+  2. server send "SYN ACK"(synchronize acknowledgement) to client
+  3. client send "ACK" to server
+* Connection Termination
+  1. client send "FIN"(finish) to server
+  2. server send "ACK" to cient
+  3. server runs termination process, after the process finish, server send "FIN" to client
+  4. client send "ACK" to server
+
+Socket: An endpoint of a two-way communication link between two programs running on the network. A socket is identified with ip address and port number.
+
+<a name="t7">
+  
+## Task 4.7: Synchronization in shared-memory environments
+**Question**\
+The producer-consumer problem can be extended to a system with multiple producers and consumers that write (or read) to (from) one shared buffer. Assume that each producer and consumer runs in its own thread. Will the solution presented in the lecture using semaphores, work for this system?
+
+**Answer**\
+Yes. With 1 mutex for critical section "buffer access", and 2 semaphores as empty and full respectively.
+
+<a name="t8">
+
+## Task 4.8: Virtualization
+**Question**\
+What is virtualization? What is a virtual machine? Please explain the differences between a VMM Type I and a VMM Type II!
+
+**Answer**\
+“Virtualization is the simulation of the software and/or hardware upon which other software runs. This simulated environment is called a virtual machine (VM). The front-end of a virtual machine is a lot like a regular computer, but in the back-end, they're different.\
+Virtual machines on the same computer are managed by a hypervisor.
+
+* TypeI
+  - Hosted directly on the hardware of a computer
+* Type II
+  - Run as an application on the top of an operating system installed on the host computer
 
 
+|  |Type I|Type II|
+|--|--|--|
+|Executing Application|faster|slower|
+|I/O Speed|faster|slower|
+|Example|VMWare ESXi,<br> Hyper-V,<br> KVM(open source)|VMWare workstation,<br> VirtualBox|
