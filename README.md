@@ -1,7 +1,9 @@
 # Usage
-***Unofficial*** solutions for HPC exercises. The sources were searched from google as well as from lecture notes. If you have a better answer, feel free to tell us. We appreciate your assistance to make this solution better.
+***Unofficial*** solutions for HPC exercises. If you have a better answer, feel free to tell us. We appreciate your assistance to make this solution better.
 
 The solutions are placed in [doc](/doc). Head to the folder and enjoy :blush:
+
+Check belows for existing answers.
 
 ## Progress
 * :heavy_check_mark:  Done
