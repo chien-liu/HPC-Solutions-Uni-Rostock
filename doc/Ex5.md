@@ -157,4 +157,6 @@ Compare UDP and TCP in terms of the advantages, disadvantages, and application a
   
 ## Task 5.9: Peer-to-peer networks: BitTorrent
 **Question**\
+The BitTorrent protocol is useful for distributing files as well as distributing streams. What needs to be considered in the distribution in the case of stream distribution compared to file distribution?
 
+**Answer**\
