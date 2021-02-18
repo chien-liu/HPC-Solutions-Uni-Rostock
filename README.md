@@ -3,15 +3,6 @@
 
 The solutions are placed in [doc](/doc). Head to the folder and enjoy :blush:
 
-## Table of Content
-- [Prgress](#progress)
-  * [exercise1](#1)
-  * [exercise2](#2)
-  * [exercise3](#3)
-  * [exercise4](#4)
-  * [exercise5](#5)
-  * [exercise6](#6)
-
 ## Progress
 * :heavy_check_mark:  Done
 * :heavy_multiplication_x: Missing
