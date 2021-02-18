@@ -56,6 +56,17 @@ Some solutions are still in progress. What we have now is shown below.
   - [x] 4.7
   - [x] 4.8
 * exercise 5  <a name="5">
+  - [x] 5.1
+  - [x] 5.2
+  - [x] 5.3
+  - [x] 5.4
+  - [x] 5.5
+  - [x] 5.6
+  - [x] 5.7
+  - [x] 5.8
+  - [ ] 5.9
+  - [ ] 5.10
+  - [ ] 5.11
 * exercise 6  <a name="6">
 
 
